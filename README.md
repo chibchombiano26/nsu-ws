@@ -35,7 +35,7 @@ To do:
  
   Create a body with the request (See in this documentation the option available fields)
  
-<img src="assets/images/fields.png" width="200">
+<img src="assets/images/fields.PNG" width="200">
 
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/9cab812a5b4648e1b107)
