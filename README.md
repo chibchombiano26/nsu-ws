@@ -58,7 +58,7 @@ Ajax
 var settings = {
   "async": true,
   "crossDomain": true,
-  "url": 'currenturl',
+  "url": <URL>,
   "method": "POST",
   "headers": {
     "key_vendor": "YOURKEY",
@@ -73,7 +73,7 @@ C Sharp
 ----
 
 ```js
-var client = new RestClient("http://localhost:8540/lms/instances/-1/forms/PostExternalRequestVendor");
+var client = new RestClient(<URL>);
 var request = new RestRequest(Method.POST);
 request.AddHeader("cache-control", "no-cache");
 request.AddHeader("content-type", "application/json");
@@ -87,7 +87,7 @@ JAVA
 ----
 
 ```js
-HttpResponse<String> response = Unirest.post("http://localhost:8540/lms/instances/-1/forms/PostExternalRequestVendor")
+HttpResponse<String> response = Unirest.post(<URL>)
   .header("key_vendor", <Key>)
   .header("content-type", "application/json")
   .header("cache-control", "no-cache")
@@ -103,7 +103,7 @@ NODE
 var request = require("request");
 
 var options = { method: 'POST',
-  url: 'http://localhost:8540/lms/instances/-1/forms/PostExternalRequestVendor',
+  url: <URL>,
   headers: 
    { 'postman-token': '562efb8f-f648-a6e5-16ef-4821730d2d37',
      'cache-control': 'no-cache',
