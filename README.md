@@ -70,8 +70,8 @@ var settings = {
 }
 ```
 
-c #
--
+C Sharp
+----
 
 ```js
 var client = new RestClient("http://localhost:8540/lms/instances/-1/forms/PostExternalRequestVendor");
