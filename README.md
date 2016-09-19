@@ -52,6 +52,7 @@ Javascript
 .
 
 Ajax
+----
 
 ```js
 
@@ -69,8 +70,8 @@ var settings = {
 }
 ```
 
-
-c#
+c #
+-
 
 ```js
 var client = new RestClient("http://localhost:8540/lms/instances/-1/forms/PostExternalRequestVendor");
@@ -84,6 +85,7 @@ IRestResponse response = client.Execute(request);
 ```
 
 JAVA
+----
 
 ```js
 HttpResponse<String> response = Unirest.post("http://localhost:8540/lms/instances/-1/forms/PostExternalRequestVendor")
@@ -96,6 +98,7 @@ HttpResponse<String> response = Unirest.post("http://localhost:8540/lms/instance
 ```
 
 NODE
+----
 
 ```js
 var request = require("request");
