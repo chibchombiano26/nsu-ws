@@ -24,8 +24,6 @@ First of all you need an api key, you can get youe own key on vendor section:
 Test endpoint
 ------
 
-You can test our endpoint using postman we prepare an example in this link:
-
 To do:
 
 
@@ -37,8 +35,9 @@ To do:
  
 <img src="assets/images/fields.PNG" width="200">
 
+You can test our endpoint using postman we prepare an example in this link:
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/9cab812a5b4648e1b107)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/3dae32e8817304601d97)
 
 
  
