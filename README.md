@@ -14,7 +14,7 @@ Get started
 
 First of all you need an api key, you can get youe own key on vendor section:
 
-<img src="https://lh5.googleusercontent.com/OMa2_kyFzUKLpr_f5v1BZRBa135RMygMu3avRrzGfvDodbAQA9WRKI4ttUbETs1Sm046d-WSAXteqKs=w1366-h599-rw" width="200">
+<img src="assets/images/fields.PNG" width="200">
 
 > **Note:**
 
