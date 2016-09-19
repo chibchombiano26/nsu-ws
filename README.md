@@ -14,7 +14,7 @@ Get started
 
 First of all you need an api key, you can get youe own key on vendor section:
 
-<img src="assets/images/fields.PNG" width="200">
+<img src="assets/images/vendor-key.png" width="200">
 
 > **Note:**
 
@@ -31,11 +31,11 @@ To do:
 
  Set your header key
 
-<img src="https://lh3.googleusercontent.com/ArLK40z_VmTNYnht8XZf7zrdBKVIU6AtBpiNQoTRjLvheSAq0NlfqNSAvKtqjcIAmEsavUfS5CNLCKM=w1366-h599" width="200">
+<img src="assets/images/Header.PNG" width="200">
  
   Create a body with the request (See in this documentation the option available fields)
  
-<img src="https://lh4.googleusercontent.com/AIqIx_eV3EWiw0Xxgt_SMHXh5ARzLLyEg0lx0_DCzC7MIYGJvRILnLyO7dpXORCd1s2nJi7DRhhcP-c=w1366-h599-rw" width="200">
+<img src="assets/images/fields.png" width="200">
 
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/9cab812a5b4648e1b107)
