@@ -20,3 +20,30 @@ First of all you need an api key, you can get youe own key on vendor section:
 
 > - This key must be saved properly.
 > - If you send multiple times the same info the system is going to reject the repeated data.
+
+Languajes suport examples
+-------------------------
+
+Javascript
+----------
+
+.
+
+Ajax
+
+```js
+
+var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": 'currenturl',
+  "method": "POST",
+  "headers": {
+    "key_vendor": "YOURKEY",
+    "content-type": "application/json",
+  },
+  "processData": false,
+  "data": "DATA"
+}
+```
+
