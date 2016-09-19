@@ -14,7 +14,7 @@ Get started
 
 First of all you need an api key, you can get youe own key on vendor section:
 
-<img src="assets/images/vendor-key.png" width="200">
+<img src="assets/images/vendor-key.PNG" width="200">
 
 > **Note:**
 
