@@ -69,3 +69,53 @@ var settings = {
 }
 ```
 
+
+c#
+
+```js
+var client = new RestClient("http://localhost:8540/lms/instances/-1/forms/PostExternalRequestVendor");
+var request = new RestRequest(Method.POST);
+request.AddHeader("cache-control", "no-cache");
+request.AddHeader("content-type", "application/json");
+request.AddHeader("key_vendor", <KEY>);
+request.AddParameter("application/json", <JSON-STRINGIFY>, ParameterType.RequestBody);
+IRestResponse response = client.Execute(request);
+
+```
+
+JAVA
+
+```js
+HttpResponse<String> response = Unirest.post("http://localhost:8540/lms/instances/-1/forms/PostExternalRequestVendor")
+  .header("key_vendor", <Key>)
+  .header("content-type", "application/json")
+  .header("cache-control", "no-cache")
+  .body(<JSON-STRINGIFY>)
+  .asString();
+
+```
+
+NODE
+
+```js
+var request = require("request");
+
+var options = { method: 'POST',
+  url: 'http://localhost:8540/lms/instances/-1/forms/PostExternalRequestVendor',
+  headers: 
+   { 'postman-token': '562efb8f-f648-a6e5-16ef-4821730d2d37',
+     'cache-control': 'no-cache',
+     'content-type': 'application/json',
+     key_vendor: <KEY> },
+  body: 
+   <JSON-OBJECT>,
+  json: true };
+
+request(options, function (error, response, body) {
+  if (error) throw new Error(error);
+
+  console.log(body);
+});
+
+
+```
