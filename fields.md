@@ -3,27 +3,42 @@
 
 vendorName
 ----------
+Name of the vendor (Not required)
 
 vendorId
 --------
 
+Id of the vendor (Required format V00XX)
+
 campaignName
 ------------
+
+Name of the campaign (Not required)
 
 campaignId
 ----------
 
+Id of the campaign (Required format V00XX)
+
 firstName
 ---------
+
+First name of the prospect (Required)
 
 middlename
 ----------
 
+Middle name of the prospect
+
 lastName
 --------
 
+Last name of the prospect (Required)
+
 email
 -----
+
+email of the prospect (Required)
 
 genderCode
 ----------
