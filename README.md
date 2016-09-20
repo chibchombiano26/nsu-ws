@@ -53,6 +53,8 @@ Javascript
 Ajax
 ----
 
+Implementation on javascript code
+
 ```js
 
 var settings = {
@@ -67,10 +69,17 @@ var settings = {
   "processData": false,
   "data": "DATA"
 }
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
+
 ```
 
 C Sharp
 ----
+
+Implementation on javascript c#
 
 ```js
 var client = new RestClient(<URL>);
@@ -86,6 +95,8 @@ IRestResponse response = client.Execute(request);
 JAVA
 ----
 
+Implementation on java code
+
 ```js
 HttpResponse<String> response = Unirest.post(<URL>)
   .header("key_vendor", <Key>)
@@ -99,13 +110,15 @@ HttpResponse<String> response = Unirest.post(<URL>)
 NODE
 ----
 
+Implementation on node code
+
 ```js
 var request = require("request");
 
 var options = { method: 'POST',
   url: <URL>,
   headers: 
-   { 'postman-token': '562efb8f-f648-a6e5-16ef-4821730d2d37',
+   { 
      'cache-control': 'no-cache',
      'content-type': 'application/json',
      key_vendor: <KEY> },
@@ -118,6 +131,37 @@ request(options, function (error, response, body) {
 
   console.log(body);
 });
+
+
+```
+
+PHP
+----
+
+Implementation on php code
+
+```js
+<?php
+
+$request = new HttpRequest();
+$request->setUrl(<URL>);
+$request->setMethod(HTTP_METH_POST);
+
+$request->setHeaders(array(
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/json',
+  'key_vendor' => <YOURKEYHERE>
+));
+
+$request->setBody(<JSON-OBJECT>);
+
+try {
+  $response = $request->send();
+
+  echo $response->getBody();
+} catch (HttpException $ex) {
+  echo $ex;
+}
 
 
 ```
