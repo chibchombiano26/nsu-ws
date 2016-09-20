@@ -6,7 +6,7 @@ Nsu lead services is an webservice that is provider for Private Florida Research
 
 Current version:  v0.0.1
 
-http://localhost:8540/lms/instances/-1/forms/PostExternalRequestVendor
+http://fldvd-apinet01.ad.nova.edu/appcentral/lms/instances/-1/forms/PostExternalRequestVendor
 
 
 Get started
