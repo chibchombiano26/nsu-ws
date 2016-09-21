@@ -29,7 +29,7 @@ To do:
 
  Set your header key
 
-<img src="../images/Header.PNG" width="200">
+<img src="../assets/images/Header.PNG" width="200">
  
   Create a body with the request (See in this documentation the option available fields)
  
