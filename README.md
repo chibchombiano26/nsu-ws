@@ -162,6 +162,27 @@ try {
 } catch (HttpException $ex) {
   echo $ex;
 }
+```
 
+List programs
+----
+
+Do a get request to with the <text>: parameter ie: accounting
+
+```js
+
+Do a get request to:
+http://fldvt-apinet01.ad.nova.edu/appcentral/lms/instances/1023/programsofinterest/searchProgram?text=accounting
+
+```
+
+List locations
+----
+
+Do a get request to with the <text>: parameter ie: miami
+
+```js
+
+http://fldvt-apinet01.ad.nova.edu/appcentral/lms/instances/1023/location/searchLocation?text=miami
 
 ```
