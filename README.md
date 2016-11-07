@@ -37,7 +37,7 @@ To do:
 
 You can test our endpoint using postman we prepare an example in this link:
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/3dae32e8817304601d97)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/7cc718eb22250a21bd6e)
 
 
  
@@ -169,14 +169,12 @@ List programs
 
 Do a get request to with the <text>: parameter ie: accounting
 
-http://fldvt-apinet01.ad.nova.edu/appcentral/lms/instances/1023/
-programsofinterest/searchProgram?text=accounting
+Import postman and use Get programs
+https://www.getpostman.com/collections/7cc718eb22250a21bd6e
 
 ```js
 
-http://fldvt-apinet01.ad.nova.edu/appcentral/lms/instances/1023/
-programsofinterest/searchProgram?text=accounting
-
+http://fldvd-apinet01.ad.nova.edu/appcentral/lms/instances/-1/programsofinterest/searchProgram?text=Accounting
 ```
 
 List locations
@@ -184,12 +182,11 @@ List locations
 
 Do a get request to with the <text>: parameter ie: miami
 
-http://fldvt-apinet01.ad.nova.edu/appcentral/lms/instances/1023/
-location/searchLocation?text=miami
+Import postman and use Get Locations
+https://www.getpostman.com/collections/7cc718eb22250a21bd6e
 
 ```js
 
-http://fldvt-apinet01.ad.nova.edu/appcentral/lms/instances/1023/
-location/searchLocation?text=miami
+http://fldvd-apinet01.ad.nova.edu/appcentral/lms/instances/1/location/searchLocation?text=Miami
 
 ```
